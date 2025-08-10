@@ -2,23 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Token Display</title>
+  <title>SK College - Token Display</title>
   <link rel="stylesheet" href="display.css">
 </head>
 <body>
-  <h1>Room 1 - Next Token Numbers</h1>
-  <div class="room" id="room1">
-    <div class="token" id="r1-1">-</div>
-    <div class="token" id="r1-2">-</div>
-    <div class="token" id="r1-3">-</div>
-  </div>
 
-  <h1>Room 2 - Next Token Numbers</h1>
-  <div class="room" id="room2">
-    <div class="token" id="r2-1">-</div>
-    <div class="token" id="r2-2">-</div>
-    <div class="token" id="r2-3">-</div>
-  </div>
+  <header>
+  
+    <h1>SK College - Table Token Display</h1>
+  </header>
+
+  <main class="container">
+    <!-- Left Side -->
+    <div class="room">
+      <div class="table-box">
+        <h2>Table no 1</h2>
+        <div class="token" id="t1">-</div>
+      </div>
+      <div class="table-box">
+        <h2>Table no 2</h2>
+        <div class="token" id="t2">-</div>
+      </div>
+      <div class="table-box">
+        <h2>Table no 3</h2>
+        <div class="token" id="t3">-</div>
+      </div>
+      <div class="table-box">
+        <h2>Table no 4</h2>
+        <div class="token" id="t4">-</div>
+      </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="room">
+      <div class="table-box">
+        <h2>Table no 5</h2>
+        <div class="token" id="t5">-</div>
+      </div>
+      <div class="table-box">
+        <h2>Table no 6</h2>
+        <div class="token" id="t6">-</div>
+      </div>
+      <div class="table-box">
+        <h2>Table no 7</h2>
+        <div class="token" id="t7">-</div>
+      </div>
+      <div class="table-box">
+        <h2>Table no 8</h2>
+        <div class="token" id="t8">-</div>
+      </div>
+    </div>
+  </main>
 
   <script src="/socket.io/socket.io.js"></script>
   <script src="display.js"></script>
